@@ -10,12 +10,14 @@ pip install -r requirements.txt
 
 ## Usage
 
-### YouTube URL:
+### YouTube URL
+
 ```bash
 python ascii_alnum_dark.py "https://www.youtube.com/watch?v=Q3_YxsWnjKg"
 ```
 
-### Local video file:
+### Local video file
+
 ```bash
 python ascii_alnum_dark.py path/to/your/video.mp4
 ```
