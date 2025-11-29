@@ -1,3 +1,6 @@
 yt-dlp
 opencv-python
 numpy
+pygame
+Pillow
+PyYAML

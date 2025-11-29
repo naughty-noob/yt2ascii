@@ -1,0 +1,23 @@
+# Example configuration file for ASCII Video Player
+# Copy this to config.yaml and customize as needed
+
+# Display settings
+target_width: 120        # Maximum width of ASCII output
+fps_cap: 24              # Maximum FPS for playback
+aspect_corr: 0.45        # Vertical squish adjustment for terminal font
+
+# Visual settings
+invert: false            # Flip dark/light mapping
+use_colors: true         # Enable ANSI colors
+charset: detailed        # Character set: detailed, block, simple, alphanum
+
+# Audio settings
+enable_audio: true       # Enable audio playback
+
+# Performance settings
+frame_cache_size: 100    # Number of frames to cache (0 to disable)
+adaptive_quality: true   # Automatically adjust quality based on performance
+
+# Terminal settings
+auto_detect_terminal: true  # Auto-detect terminal capabilities
+
